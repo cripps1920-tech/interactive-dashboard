@@ -4,7 +4,6 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <script src="js/script.js" defer></script>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
      <script defer src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
 </head>
@@ -20,7 +19,25 @@
     </noscript>
     <div class="container">
     <div class="row">
-        <!-- Dashboard Content -->
+      <div class="col" id="weekly-tasks">
+        <script src="weekly-tasks.js"></script>
+        <form>
+            <label for="name">Name:</label>
+            <input type="text" id="name" placeholder="Enter your name">
+
+            <label for="daily-target">Daily Task Goal:</label>
+            <input type="number" id="daily-target" placeholder="Tasks per day">
+
+            <label for="bonus-tasks">Weekly Bonus Tasks:</label>
+            <input type="number" id="bonus-tasks" placeholder="Bonus Tasks"> 
+
+            <button id="goal-btn">Set Goals</button>
+            <button id="goal-btn" type="button">Set Goal</button>
+            
+            
+        </form>
+        <p id="goal-message"></p>
+      </div>  <!-- Dashboard Content -->
     </div>
 </div>
 </body>
