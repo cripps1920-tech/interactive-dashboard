@@ -14,7 +14,3 @@ goalbutton.addEventListener("click", function(event) {
     let bonusTasks = parseFloat(document.getElementById("weekly-bonus").value);
     weeklyGoal(userName, dailyGoal, bonusTasks);
 }); 
-
-
-
-
