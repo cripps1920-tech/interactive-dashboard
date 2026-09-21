@@ -21,3 +21,11 @@ button {
             font-size: 16px;
             cursor: pointer;
         }
+#metric-converter {
+    padding: 20px;
+}
+#metric-converter input,
+#metric-converter select {
+    display: block;
+    margin-bottom: 10px;
+}
