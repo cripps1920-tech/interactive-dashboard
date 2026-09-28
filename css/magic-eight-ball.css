@@ -4,11 +4,11 @@
     background-color: black;
     color: white;
     border-radius: 50%;
-    text-align: center;
     padding-top: 45px;
     font-size: 18px;
     position: absolute;
     top: 40px;
     left: 40px;
     display: none;
+    z-index: 10;
 }

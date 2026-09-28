@@ -16,7 +16,8 @@ function displayAnswer() {
     circle.innerHTML = answer;
 }
 
-document.getElementById("ball").addEventListener("mousedown", function() {
+document.getElementById("ball").addEventListener("mousedown", function(event){
+    event.preventDefault(); 
     let question = document.getElementById("question").value;
 
     if (question === "") {
