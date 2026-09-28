@@ -50,3 +50,7 @@ BEGIN
         OUTPUT "Invalid conversion type selected."
 
 END
+
+## Magic Eight Ball
+
+This feature lets users type a yes/no question and click the Magic Eight Ball image to receive a random answer. It uses JavaScript event listeners, DOM manipulation, and a simple array of possible responses. The circle overlay is dynamically shown and updated when the user interacts with the Eight Ball.
