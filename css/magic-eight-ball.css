@@ -12,3 +12,16 @@
     display: none;
     z-index: 10;
 }
+
+#magicEightBall {
+    position: relative;
+}
+
+#circle {
+    z-index: 9999;
+}
+
+#ball {
+    position: relative;
+    z-index: 1;
+}
