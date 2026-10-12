@@ -38,4 +38,4 @@ addTaskButton.addEventListener("click", function(event) {
     
     document.getElementById('task-name').value = "";
 
-});
+}); 
