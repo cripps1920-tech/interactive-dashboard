@@ -1,6 +1,7 @@
 #digital-clock {
     text-align: center;
     color: navy;
+    padding: 10px;
 }
 
 #clock-face {
